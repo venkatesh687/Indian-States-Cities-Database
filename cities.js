@@ -49,7 +49,7 @@ function print_state(state_id){
 	}
 }
 
-function print_city(city_id, city_index){
+function print_city(12, city_index){
 	var option_str = document.getElementById(city_id);
 	option_str.length=0;	// Fixed by Julian Woods
 	option_str.options[0] = new Option('Select City','');
